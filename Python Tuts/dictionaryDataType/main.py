@@ -3,11 +3,7 @@ def main():
 
 
 def dictionaryTool():
-    students = {
-        "Purab": "Red House",
-        "Akash": "Blue House",
-        "Sonu": "Green House"
-    }
+    students = {"Purab": "Red House", "Akash": "Blue House", "Sonu": "Green House"}
 
     #  to access the student house
     print(students["Purab"])
@@ -17,12 +13,11 @@ def dictionaryTool():
 
 
 def listWithDictionary():
-
     students = [
         {"name": "Purab", "Department": "CSE"},
         {"name": "Akash", "Department": "AI & ML"},
         {"name": "Sonu", "Department": "ISE"},
-        {"name": "Raja", "Department": "ECE"}
+        {"name": "Raja", "Department": "ECE"},
     ]
 
     for student in students:

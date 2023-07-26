@@ -14,4 +14,3 @@ print("Hello my name is:", values[1])
 # slicing the values list starting from 1 to end
 for i in values[1:]:
     print(f"the name is {i}")
-

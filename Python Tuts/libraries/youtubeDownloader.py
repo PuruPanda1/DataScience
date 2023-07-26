@@ -43,4 +43,6 @@ def download(ys):
     print("Download Completed")
 
 
-main()
+if __name__ == '__main__':
+    main()
+    
