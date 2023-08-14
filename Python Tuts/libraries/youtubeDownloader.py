@@ -8,6 +8,8 @@ def main():
 
     if(len(values) < 3):
         print("All the arguments not provided")
+        print("python .\\filename {m/v} link")
+        print("m = music \nv = video")
         return
 
 
